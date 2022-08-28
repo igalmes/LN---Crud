@@ -1,0 +1,13 @@
+<h1>Listado de Productos</h1>
+
+<% productos.forEach(producto => { %>
+    <h2><a href="/productos/<%= producto.id %>">Producto: <%= producto.id %></a></h2>
+    <p><%= producto.name %></p>
+<% }) %>
+<!-- vista principal de /productos -->
+
+<!-- <%= muestra valor en plantilla html con escape %>
+    <%- se usa con el include para pegar tal cual %>
+    <% ejecuta java script %> -->
+
+<!-- con forEach recorro los 3 objetos del array y los trae -->

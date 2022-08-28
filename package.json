@@ -1,0 +1,23 @@
+{
+  "name": "crud-node",
+  "version": "1.0.0",
+  "description": "CRUD en NODE.JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "keywords": [
+    "crude",
+    "node"
+  ],
+  "author": "Ignacio Galmes",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}
