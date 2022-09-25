@@ -23,7 +23,6 @@ app.use((req, res, next) => {
 
 const port = process.env.PORT || 433;
 
-//ejecuto variable de entorno en port 443
 
 app.listen(port, () => console.log(`http://localhost:${port}`));
 
